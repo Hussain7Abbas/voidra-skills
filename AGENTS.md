@@ -10,6 +10,7 @@ Maintain a monorepo of independently installable agent skills for skills.sh.
 - `docs/`: project documentation starting at [intro.md](docs/intro.md).
 - `Makefile`: public development and publishing commands.
 - `.github/workflows/check.yml`: validation, tests, and CLI discovery in CI.
+- `skills.sh.json`: skills.sh repository-page grouping configuration.
 
 ## Workflow and style
 
@@ -17,6 +18,7 @@ Maintain a monorepo of independently installable agent skills for skills.sh.
 - Run `make check` for tooling changes and `make validate SKILL=<name>` for a skill edit. Use `make discover` when changing skill layout or discovery metadata.
 - Use ES modules, Node built-ins, explicit errors, and argument arrays for subprocesses. Follow `.editorconfig`: two spaces, LF, trailing newlines, and tabs in Makefile recipes.
 - Keep package.json private: this repository publishes Git-hosted skills, not an npm package.
+- Keep `skills.sh.json` valid against its declared schema and update its groups when published skills are added, renamed, or removed.
 - Keep `make publish SKILL=<name>` limited to that skill's committed changes. Publish shared repository changes separately. See [publishing](docs/publishing.md).
 - Treat repository skill copies as the editing source. Global installations are independent copies; update them only when requested.
 

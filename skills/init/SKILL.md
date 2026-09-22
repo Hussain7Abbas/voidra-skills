@@ -2,6 +2,8 @@
 name: init
 description: Create or update project instructions and documentation with root and selectively scoped AGENTS.md files covering project rules, structure, and code style; CLAUDE.md files that import their sibling AGENTS.md; and a linked docs/ tree. Use when initializing repository guidance or refreshing it after project changes. Includes maintenance rules that keep instructions and documentation synchronized with user changes.
 metadata:
+  author: mcollina
+  contributors: hussain7abbas <hussain@iscoded.com>
   tags: initialization, agents, context-engineering, agents-md, documentation, maintenance
 ---
 

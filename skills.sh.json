@@ -1,0 +1,13 @@
+{
+  "$schema": "https://skills.sh/schemas/skills.sh.schema.json",
+  "notGrouped": "bottom",
+  "groupings": [
+    {
+      "title": "Project foundations",
+      "description": "Skills for initializing and maintaining project guidance and documentation.",
+      "skills": [
+        "init"
+      ]
+    }
+  ]
+}

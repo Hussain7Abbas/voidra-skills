@@ -35,7 +35,9 @@ The target validates the skill and pushes committed changes to `origin/main`. It
 After the repository is pushed publicly, users can install just that skill:
 
 ```sh
-npx skills add Hussain7Abbas/voidra-skills --skill init
+npx skills add hussain7abbas/voidra-skills --skill init
 ```
 
 skills.sh hosts a directory of GitHub skills. Listings follow CLI installations; a Git push does not guarantee immediate listing. See the [official publishing explanation](https://skills.sh/docs/faq#how-do-i-get-my-skill-listed-on-the-leaderboard).
+
+The root `skills.sh.json` groups published skills on the repository page. Update it whenever public skills are added, renamed, or removed, and run `make skills-config` to validate the configuration.

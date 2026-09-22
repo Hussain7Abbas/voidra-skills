@@ -1,6 +1,6 @@
 # Repository tooling
 
-`skills.mjs` implements local discovery, frontmatter validation, and single-skill publishing. The Makefile delegates to this CLI; tests import its exported functions.
+`skills.mjs` implements local discovery, frontmatter validation, and single-skill publishing. `skills-config.ts` validates the public skills.sh page configuration and grouped slugs. The Makefile delegates to these CLIs; tests import the publishing exports.
 
 - Keep subprocess arguments separate from executable names; do not interpolate skill names or remote settings into shell commands.
 - Inspect every outgoing commit before publishing. Checking only the final diff can miss unrelated files that were changed and reverted.

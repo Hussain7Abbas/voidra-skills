@@ -2,9 +2,11 @@
 
 skills.sh distributes skills from GitHub repositories. There is no separate registry upload step: users install a skill with the skills CLI, and its installation telemetry contributes to directory listings. See the [official FAQ](https://skills.sh/docs/faq) and [CLI reference](https://github.com/vercel-labs/skills#install-a-skill).
 
+The root `skills.sh.json` controls grouping on the repository page. Keep its skill slugs synchronized with the folders under `skills/`. skills.sh reads configuration changes after a telemetry-enabled CLI installation and may cache the resulting page.
+
 ## First-time setup
 
-The local repository must have an initial commit and a public GitHub remote with a published `main` branch. This checkout already has `origin` configured as `https://github.com/Hussain7Abbas/voidra-skills.git`. Review the files, then make the initial commit and push:
+The local repository must have an initial commit and a public GitHub remote with a published `main` branch. This checkout already has `origin` configured as `https://github.com/hussain7abbas/voidra-skills.git`. Review the files, then make the initial commit and push:
 
 ```sh
 make setup
@@ -38,15 +40,15 @@ Use `REMOTE=<name>` or `BRANCH=<name>` to select another configured destination.
 After the public GitHub push:
 
 ```sh
-npx skills add Hussain7Abbas/voidra-skills --skill init
+npx skills add hussain7abbas/voidra-skills --skill init
 ```
 
 For a non-default branch, use its direct skill URL:
 
 ```sh
-npx skills add https://github.com/Hussain7Abbas/voidra-skills/tree/BRANCH/skills/init --skill init
+npx skills add https://github.com/hussain7abbas/voidra-skills/tree/BRANCH/skills/init --skill init
 ```
 
-The publish target prints the concrete install command from the remote URL. It does not generate synthetic installs or promise immediate indexing. A corresponding [directory page](https://skills.sh/Hussain7Abbas/voidra-skills/init) may appear after real CLI installations with telemetry enabled.
+The publish target prints the concrete install command from the remote URL. It does not generate synthetic installs or promise immediate indexing. A corresponding [directory page](https://skills.sh/hussain7abbas/voidra-skills/init) may appear after real CLI installations with telemetry enabled.
 
 [Back to documentation](intro.md)
