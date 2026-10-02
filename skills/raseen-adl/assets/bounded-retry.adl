@@ -1,0 +1,12 @@
+adl 1
+workflow "Bounded review"
+node start start {"label":"Start","position":{"x":0,"y":0}}
+node first question {"label":"Initial answer","position":{"x":280,"y":0},"inputs":[],"prompt":"Is the review complete?","mode":"text","options":[]}
+node check condition {"label":"Complete?","position":{"x":560,"y":0},"inputs":[{"name":"answer","type":"text"}],"value":"","equals":"","conditions":[{"input":"answer","operator":"equal","value":"done"}],"maxRetries":3,"onRetryLimit":"yes"}
+node ask question {"label":"Ask again","position":{"x":840,"y":260},"inputs":[],"prompt":"Please revise your answer, or type done.","mode":"text","options":[]}
+node finish end {"label":"Finish","position":{"x":840,"y":0},"inputs":[],"value":"Review finished"}
+connect start.next -> first
+connect first.next -> check.answer
+connect check.no -> ask
+connect check.yes -> finish
+repeat ask.next -> check.answer

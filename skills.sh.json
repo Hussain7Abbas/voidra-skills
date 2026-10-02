@@ -8,6 +8,14 @@
       "skills": [
         "init"
       ]
+    },
+    {
+      "title": "Raseen workflows and MCP",
+      "description": "Author ADL workflow designs and use connected Raseen service, chat, and administration tools.",
+      "skills": [
+        "raseen-adl",
+        "raseen-mcp"
+      ]
     }
   ]
 }

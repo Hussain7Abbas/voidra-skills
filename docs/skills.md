@@ -8,6 +8,20 @@ Each `skills/<name>/` directory is an independent installable unit. Its `SKILL.m
 
 The initial folder was copied from the global `~/.agents/skills/init` installation, including `tile.json`. That file retains the inherited `mcollina/init` identity; it is source metadata, not this repository's skills.sh identity or a publication configuration. The repository copy and global installation are independent. Future repository edits do not modify the installed copy.
 
+## Raseen skills
+
+[raseen-adl](../skills/raseen-adl/SKILL.md) writes, edits, and reviews ADL 1 designs. Its self-contained language reference and three examples cover isolated handoff/return, shared-context approval, and bounded retries.
+
+[raseen-mcp](../skills/raseen-mcp/SKILL.md) operates the existing Raseen MCP surface, including service updates, live chat, sub-agent configuration, user administration, and exact ADL save/read-back. Its connection, tool, and persistence references stay inside the skill folder.
+
+Use both when authoring and saving a workflow. Each works independently: the ADL skill can deliver a file without MCP, and the MCP skill can save user-supplied source. Installation does not configure a server, supply credentials, or run an ADL workflow. Service designs require an admin with dashboard read/write scopes.
+
+Install both for Codex:
+
+```sh
+npx skills add hussain7abbas/voidra-skills --skill raseen-adl raseen-mcp --agent codex --global --yes
+```
+
 ## Add another skill
 
 1. Create `skills/<name>/SKILL.md` using the [authoring rules](../skills/AGENTS.md).

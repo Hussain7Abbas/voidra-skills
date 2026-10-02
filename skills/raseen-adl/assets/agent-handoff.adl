@@ -1,0 +1,12 @@
+adl 1
+workflow "Agent handoff"
+node start start {"label":"Start","position":{"x":0,"y":0}}
+node request question {"label":"Task","position":{"x":280,"y":0},"inputs":[],"prompt":"What should we work on?","mode":"text","options":[],"saveAs":"task"}
+node planner agent {"label":"Planner","position":{"x":560,"y":0},"inputs":[{"name":"request","type":"text"},{"name":"specialist_result","type":"text"}],"outputs":[{"name":"plan","type":"text"}],"model":"openai/gpt-4o-mini","prompt":"Plan the task supplied as input.","sample":"Plan for {{task}}","saveAs":"plan"}
+node specialist agent {"label":"Specialist","position":{"x":840,"y":0},"inputs":[{"name":"plan","type":"text"}],"outputs":[{"name":"result","type":"text"}],"model":"openai/gpt-4o-mini","prompt":"Complete the plan supplied as input.","context":"isolated","sample":"Completed: {{plan}}","saveAs":"result"}
+node done end {"label":"Done","position":{"x":1120,"y":0},"inputs":[{"name":"result","type":"text"}],"value":""}
+connect start.next -> request
+connect request.next -> planner.request
+connect planner.plan -> specialist.plan
+connect specialist.result -> done.result
+return specialist.result -> planner.specialist_result

@@ -1,0 +1,4 @@
+interface:
+  display_name: "Raseen ADL Workflows"
+  short_description: "Write and validate Raseen ADL workflow designs"
+  default_prompt: "Use $raseen-adl to write a workflow with typed agent inputs, isolated reviewer context, and an approval decision."

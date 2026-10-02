@@ -7,6 +7,18 @@ A monorepo of agent skills, with each skill independently installable through th
 | Skill | Purpose |
 | --- | --- |
 | [init](skills/init/SKILL.md) | Create scoped project instructions, Claude imports, and documentation that stays synchronized with code changes. |
+| [raseen-adl](skills/raseen-adl/SKILL.md) | Write and validate ADL 1 workflow designs with typed ports, caller context, approval, and bounded retries. |
+| [raseen-mcp](skills/raseen-mcp/SKILL.md) | Use Raseen MCP tools for services, chats, live sub-agents, user administration, and verified design saves. |
+
+## Install Raseen skills for Codex
+
+```sh
+npx skills add hussain7abbas/voidra-skills --skill raseen-adl raseen-mcp --agent codex --global --yes
+```
+
+After installation, ask Codex to use `$raseen-adl` to write a workflow or `$raseen-mcp` to operate your configured Raseen connection. ADL authoring works without a server connection. MCP operations need your own server URL and scoped personal API key; credentials are not included. Saved ADL supports interactive preview rather than live workflow execution.
+
+Share the [ADL skill](https://skills.sh/hussain7abbas/voidra-skills/raseen-adl) and [MCP skill](https://skills.sh/hussain7abbas/voidra-skills/raseen-mcp) pages once indexed. The GitHub folders and installation command are available immediately after publication.
 
 ## Development
 

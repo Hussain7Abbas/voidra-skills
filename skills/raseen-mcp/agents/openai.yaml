@@ -1,0 +1,4 @@
+interface:
+  display_name: "Raseen MCP"
+  short_description: "Use Raseen service, chat, and admin MCP tools"
+  default_prompt: "Use $raseen-mcp to read my service and save an ADL workflow through the configured Raseen connection."

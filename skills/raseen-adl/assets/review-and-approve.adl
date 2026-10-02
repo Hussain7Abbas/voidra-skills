@@ -1,0 +1,27 @@
+adl 1
+workflow "Review and approval"
+node start start {"label":"Start","position":{"x":0,"y":0}}
+node request question {"label":"Research topic","position":{"x":280,"y":0},"inputs":[],"prompt":"What should we research?","mode":"text","options":[],"saveAs":"topic"}
+node planner agent {"label":"Planner","position":{"x":560,"y":0},"inputs":[{"name":"topic","type":"text"},{"name":"review_result","type":"text"}],"outputs":[{"name":"plan","type":"text"}],"model":"openai/gpt-4o-mini","prompt":"Plan research using the supplied topic.","sample":"Plan for {{topic}}","saveAs":"plan"}
+node memory variable {"label":"Store plan","position":{"x":840,"y":260},"saveAs":"saved_plan","valueType":"text","value":""}
+node reviewer agent {"label":"Reviewer","position":{"x":840,"y":0},"inputs":[{"name":"plan","type":"text"}],"outputs":[{"name":"review","type":"text"}],"model":"openai/gpt-4o-mini","prompt":"Review the supplied plan using the caller's conversation.","context":"shared","sample":"Reviewed {{plan}}","saveAs":"reviewed"}
+node lookup tool {"label":"Find sources","position":{"x":1120,"y":0},"inputs":[],"tool":"search","input":"{{topic}}","sample":"Sample sources for {{topic}}","saveAs":"sources"}
+node approval question {"label":"Human approval","position":{"x":1400,"y":0},"inputs":[{"name":"sources","type":"text"}],"prompt":"{{reviewed}}\nApprove this report?","mode":"mcq","options":["Approve","Revise"],"saveAs":"approval"}
+node decision condition {"label":"Approved?","position":{"x":1680,"y":0},"inputs":[{"name":"answer","type":"text"}],"value":"","equals":"","conditions":[{"input":"answer","operator":"equal","value":"Approve"}]}
+node report agent {"label":"Assemble approved report","position":{"x":1960,"y":0},"inputs":[{"name":"plan","type":"text"},{"name":"review","type":"text"},{"name":"sources","type":"text"}],"outputs":[{"name":"report","type":"text"}],"model":"openai/gpt-4o-mini","prompt":"Assemble the approved inputs without adding claims.","sample":"{{saved_plan}}\n{{reviewed}}\n{{sources}}","saveAs":"report"}
+node declined end {"label":"Revision requested","position":{"x":1960,"y":260},"inputs":[],"value":"Revision requested for {{topic}}"}
+node done end {"label":"Done","position":{"x":2240,"y":0},"inputs":[{"name":"result","type":"text"}],"value":""}
+connect start.next -> request
+connect request.next -> planner.topic
+connect planner.plan -> memory.input
+connect planner.plan -> reviewer.plan
+connect reviewer.review -> lookup
+connect lookup.next -> approval.sources
+connect approval.next -> decision.answer
+connect decision.yes -> report
+connect decision.no -> declined
+connect memory.next -> report.plan
+connect reviewer.review -> report.review
+connect lookup.next -> report.sources
+connect report.report -> done.result
+return reviewer.review -> planner.review_result
