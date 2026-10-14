@@ -33,3 +33,9 @@ npx skills add hussain7abbas/voidra-skills --skill raseen-adl raseen-mcp --agent
 Skill folders need no individual package.json or Makefile unless they acquire their own executable development workflow. Root tooling handles ordinary Markdown skills uniformly. New nested documentation sections should have an `Intro.md` index linked from their parent.
 
 [Back to documentation](intro.md)
+
+<!-- voidra-project-release:start -->
+## Voidra Project copies
+
+The [README catalog](../README.md#voidra-project-release-skills) lists the shipped Voidra skills. [Templates](../templates/) and these self-contained skill copies are synchronized from Voidra Project through its make skills-sync release command. They retain AGPL-3.0-or-later licenses; edit them in the source repository, then prevalidate and publish each skill separately from shared catalog changes.
+<!-- voidra-project-release:end -->

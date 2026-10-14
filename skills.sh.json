@@ -16,6 +16,18 @@
         "raseen-adl",
         "raseen-mcp"
       ]
+    },
+    {
+      "title": "Voidra Project",
+      "description": "Plan and track software projects with exact local gates and standalone coding agents.",
+      "skills": [
+        "voidra-architect-general",
+        "voidra-go",
+        "voidra-init",
+        "voidra-plan",
+        "voidra-release",
+        "voidra-sync"
+      ]
     }
   ]
 }

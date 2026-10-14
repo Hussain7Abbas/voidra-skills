@@ -53,3 +53,20 @@ npx skills add hussain7abbas/voidra-skills --skill init
 skills.sh hosts a directory of GitHub skills. Listings follow CLI installations; a Git push does not guarantee immediate listing. See the [official publishing explanation](https://skills.sh/docs/faq#how-do-i-get-my-skill-listed-on-the-leaderboard).
 
 The root `skills.sh.json` groups published skills on the repository page. Update it whenever public skills are added, renamed, or removed, and run `make skills-config` to validate the configuration.
+
+<!-- voidra-project-release:start -->
+## Voidra Project release skills
+
+These AGPL-3.0-or-later release copies come from [Voidra Project](https://github.com/Hussain7Abbas/voidra-project); develop changes there. Each skill contains its own runtime, matching references/templates and license. Shared template copies are in [templates/](templates/).
+
+| Skill | Purpose |
+| --- | --- |
+| [voidra-architect-general](skills/voidra-architect-general/SKILL.md) | Run Discovery and propose plans or thin slices for Voidra actions using the general project profile. Stops for questions or plan approval; writes planning records and settled glossary terms without implementing or committing. |
+| [voidra-go](skills/voidra-go/SKILL.md) | Run queued Voidra actions through Discovery, planning, implementation and verification in a local Git repository. Leave questions, exact plans, Research findings or committed results for human decisions. |
+| [voidra-init](skills/voidra-init/SKILL.md) | Bring an existing codebase into Voidra with a source-linked inferred profile, a glossary draft and instruction pointers. Use when code exists but .voidra does not. Creates no commits and changes no source code. |
+| [voidra-plan](skills/voidra-plan/SKILL.md) | Run only queued Voidra Discovery and planning stages, proposing questions, plans, slices or Research findings. Preserve source files, repository instructions, HEAD and tags; stop before implementation. |
+| [voidra-release](skills/voidra-release/SKILL.md) | Start a local Voidra release from completed, unreleased actions, creating and queueing its Release action for Go planning and exact Review acceptance. Does not publish releases. |
+| [voidra-sync](skills/voidra-sync/SKILL.md) | Catch Voidra planning up with commits made outside its tracked actions. Infer source-linked profile updates, protect confirmed answers, propose follow-up ideas or actions, and record the examined Git revision without editing code or committing. |
+
+Install selected copies with `npx skills add Hussain7Abbas/voidra-skills --skill voidra-architect-general voidra-go voidra-init voidra-plan voidra-release voidra-sync`. For Codex, check the installed CLI's global destination against current agent documentation; the desktop installer owns exact local copies. A Git push does not promise immediate skills.sh indexing.
+<!-- voidra-project-release:end -->
