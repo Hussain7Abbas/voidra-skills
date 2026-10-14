@@ -5,13 +5,13 @@ description: Run queued Voidra actions through Discovery, planning,
   exact plans, Research findings or committed results for human decisions.
 license: AGPL-3.0-or-later
 metadata:
-  version: "0.2.2"
+  version: "1.0.0"
   format-version: "1"
 ---
 
 Read the repository instructions, project profile, glossary, action, earlier runs and rejection feedback. Use the [runtime procedure](references/runtime.md) and [format reference](references/format.md). This skill works without the app.
 
-Use the bundled runtime for planning writes, ownership and commits. Never hand-edit locks, checkpoints or journals, clear another owner, approve your own plans/results, amend, tag or push. Persisted consumption precedes work. Heartbeat and check ownership before writes; lost ownership means stop.
+Use the bundled runtime for planning writes, ownership and commits. Discovery/Plan preserves absent Git; approved Bootstrap Go initializes Git after durable consumption. Select the actual worktree root for existing repositories. Never hand-edit locks, checkpoints or journals, clear another owner, approve your own plans/results, amend, tag or push. Persisted consumption precedes work. Heartbeat and check ownership before writes; lost ownership means stop.
 
 1. For explicit recovery, use the runtime's recovery procedure, validate and stop. Otherwise `start` with your agent name. Null means the queue is empty. A phase other than `started` is already stopped; summarize its gate and continue to the next queued action.
 2. Read the returned action. For Feature, Bug, Improvement/refactor or Profile change in Discovery or Plan, read [Discovery](references/discovery.md) and [Plan](references/plan.md), and dispatch the project's template architecture skill. Publish its proposal through this run's `planning` command, then stop this action at questions, approval or slices. Never fabricate answers. Resolve only explicit agent-decides choices through `choices`, with reasons.
@@ -21,4 +21,4 @@ Use the bundled runtime for planning writes, ownership and commits. Never hand-e
 6. `prepare`, validate, `commit` using the project's message style, validate, and `finalize`, validate. Leave implementation results at Review; Release finishes at Released. Commit trailers identify the action and run; interrupted commits reconcile instead of repeating.
 7. Continue the remaining queue in order. If work fails, use `fail` with the reason and validate; do not claim completion or invent a passing check.
 
-Validate after each completed file write or grouped operation with `npx --yes voidra@0.2.2 check .`. An unrelated stale gate may remain; stop for structural errors or a stale gate belonging to this action. Report actual checks, changed paths, commits and gates. Call results at Review waiting for a human decision; do not call them Done. The user's instructions take precedence over the skill.
+Validate after each completed file write or grouped operation with `npx --yes voidra@1.0.0 check .`. An unrelated stale gate may remain; stop for structural errors or a stale gate belonging to this action. Report actual checks, changed paths, commits and gates. Call results at Review waiting for a human decision; do not call them Done. The user's instructions take precedence over the skill.
