@@ -27681,7 +27681,7 @@ import { join } from "node:path";
 
 // packages/voidra/src/versions.ts
 var FORMAT_VERSION = 1;
-var PACKAGE_VERSION = "0.2.2";
+var PACKAGE_VERSION = "1.0.0";
 function upgradePrototype(files) {
   const upgraded = new Map(files);
   const raw = files.get(".voidra/voidra.json");
@@ -28837,6 +28837,11 @@ async function applyOperation(root, input3, options = {}, migration = false) {
   }
 }
 
+// packages/voidra/src/cli.ts
+var help = `Voidra ${PACKAGE_VERSION}
+Commands: check [project] [--json]; version; id <prefix>; plan <action> [--project folder] [--json]; approve <action> --by <actor> --revision <fingerprint> [--project folder] [--json]; apply <manifest.json> [--project folder] [--glossary] [--json]; recover <operation> [--project folder] [--rollback] [--glossary] [--json]; migrate [project] [--dry-run] [--json]
+`;
+
 // packages/voidra/src/documents.ts
 var MAX_DOCUMENT_BYTES = 256 * 1024;
 
@@ -29147,6 +29152,9 @@ var checkpointSchema = external_exports.looseObject({
   inputHashes: external_exports.record(external_exports.string(), external_exports.string()).optional(),
   priorWork: external_exports.record(external_exports.string(), external_exports.string().nullable()).optional(),
   baseTags: external_exports.string().optional(),
+  gitRoot: external_exports.string().nullable().optional(),
+  bootstrapGit: external_exports.boolean().optional(),
+  bootstrapFiles: external_exports.record(external_exports.string(), external_exports.string()).optional(),
   planRevision: external_exports.string().optional(),
   startingChanges: external_exports.record(external_exports.string(), external_exports.string().nullable()).optional(),
   paths: external_exports.array(external_exports.string()),
@@ -29224,7 +29232,7 @@ async function runContext(root, run) {
     throw new Error("Run checkpoint identity changed");
   for (const path of ctx.paths) {
     await safeGitPath(root, path);
-    if (path.startsWith(".voidra/") && !path.startsWith(`.voidra/actions/${ctx.action}/`) && path !== (ctx.release ? `.voidra/releases/${ctx.release.version}.md` : ""))
+    if (path.startsWith(".voidra/") && !path.startsWith(`.voidra/actions/${ctx.action}/`) && !(ctx.bootstrapGit && ctx.baseCommit === null && Object.hasOwn(ctx.bootstrapFiles ?? {}, path)) && path !== (ctx.release ? `.voidra/releases/${ctx.release.version}.md` : ""))
       throw new Error("Run checkpoint contains another action's files");
   }
   return ctx;
