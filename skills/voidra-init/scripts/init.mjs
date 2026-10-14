@@ -27682,7 +27682,7 @@ import { join } from "node:path";
 
 // packages/voidra/src/versions.ts
 var FORMAT_VERSION = 1;
-var PACKAGE_VERSION = "0.2.2";
+var PACKAGE_VERSION = "1.0.0";
 function upgradePrototype(files) {
   const upgraded = new Map(files);
   const raw = files.get(".voidra/voidra.json");
@@ -28837,6 +28837,11 @@ async function applyOperation(root, input4, options = {}, migration = false) {
     await release();
   }
 }
+
+// packages/voidra/src/cli.ts
+var help = `Voidra ${PACKAGE_VERSION}
+Commands: check [project] [--json]; version; id <prefix>; plan <action> [--project folder] [--json]; approve <action> --by <actor> --revision <fingerprint> [--project folder] [--json]; apply <manifest.json> [--project folder] [--glossary] [--json]; recover <operation> [--project folder] [--rollback] [--glossary] [--json]; migrate [project] [--dry-run] [--json]
+`;
 
 // packages/voidra/src/documents.ts
 var MAX_DOCUMENT_BYTES = 256 * 1024;
