@@ -1,0 +1,4 @@
+interface:
+  display_name: "Electron Desktop"
+  short_description: "Secure Electron apps with Hussain's desktop defaults"
+  default_prompt: "Use $electron-best-practices to build or improve this Electron app with my desktop conventions."

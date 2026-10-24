@@ -28,6 +28,13 @@
         "voidra-release",
         "voidra-sync"
       ]
+    },
+    {
+      "title": "Desktop applications",
+      "description": "Secure Electron development with personal desktop interaction conventions.",
+      "skills": [
+        "electron-best-practices"
+      ]
     }
   ]
 }

@@ -22,6 +22,12 @@ Install both for Codex:
 npx skills add hussain7abbas/voidra-skills --skill raseen-adl raseen-mcp --agent codex --global --yes
 ```
 
+## Electron desktop conventions
+
+[electron-best-practices](../skills/electron-best-practices/SKILL.md) is Hussain's customized edition of the MIT-licensed jwynia/agent-skills Electron skill. It preserves the original author, source revision and supporting material, with Hussain recorded as a contributor. Its [personal desktop style](../skills/electron-best-practices/references/personal-desktop-style.md) covers main-action hotkeys, custom titlebars with Settings opposite the window controls, General/Appearance settings tabs, independent scrolling, accessibility and persistent preferences. Optional upstream helpers use Deno; ordinary skill use does not require it.
+
+In the enclosing dot-skills checkout, this distribution copy is synchronized from its canonical `skills/electron-best-practices/` folder. Global agent links point to the canonical folder; copying for distribution does not change global installation by itself.
+
 ## Add another skill
 
 1. Create `skills/<name>/SKILL.md` using the [authoring rules](../skills/AGENTS.md).

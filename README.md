@@ -6,6 +6,7 @@ A monorepo of agent skills, with each skill independently installable through th
 
 | Skill | Purpose |
 | --- | --- |
+| [electron-best-practices](skills/electron-best-practices/SKILL.md) | Build secure Electron apps with main-action hotkeys, custom titlebars, tabbed settings and independent scrolling. |
 | [init](skills/init/SKILL.md) | Create scoped project instructions, Claude imports, and documentation that stays synchronized with code changes. |
 | [raseen-adl](skills/raseen-adl/SKILL.md) | Write and validate ADL 1 workflow designs with typed ports, caller context, approval, and bounded retries. |
 | [raseen-mcp](skills/raseen-mcp/SKILL.md) | Use Raseen MCP tools for services, chats, live sub-agents, user administration, and verified design saves. |
