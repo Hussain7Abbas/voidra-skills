@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · prediction-market-risk-review
+  short_description: Review prediction-market, basket, oracle, and trading-agent
+  default_prompt: Use $eai-prediction-market-risk-review for this task with the current host capabilities and local
+    snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

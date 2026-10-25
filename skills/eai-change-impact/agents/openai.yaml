@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · change-impact
+  short_description: Perform evidence-backed impact analysis before changing
+  default_prompt: Use $eai-change-impact for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

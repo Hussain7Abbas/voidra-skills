@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · github-ops
+  short_description: GitHub repository operations, automation, and management.
+  default_prompt: Use $eai-github-ops for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

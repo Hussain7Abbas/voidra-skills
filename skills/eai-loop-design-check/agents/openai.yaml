@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · loop-design-check
+  short_description: Design a goal-oriented agent loop or review one for failure
+  default_prompt: Use $eai-loop-design-check for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · django-verification
+  short_description: Run the full Django verification loop — environment check,
+  default_prompt: Use $eai-django-verification for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

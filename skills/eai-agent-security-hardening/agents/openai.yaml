@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · agent-security-hardening
+  short_description: Security hardening guidance for AI agent frameworks that
+  default_prompt: Use $eai-agent-security-hardening for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

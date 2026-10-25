@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · healthcare-emr-patterns
+  short_description: EMR/EHR development patterns for healthcare applications.
+  default_prompt: Use $eai-healthcare-emr-patterns for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

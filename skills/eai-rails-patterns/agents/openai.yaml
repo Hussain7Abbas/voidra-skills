@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · rails-patterns
+  short_description: Ruby on Rails framework patterns for Rails 7.1+ and 8.x
+  default_prompt: Use $eai-rails-patterns for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

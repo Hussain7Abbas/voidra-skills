@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · brand-voice
+  short_description: Define and audit brand voice, messaging, visual identity,
+  default_prompt: Use $eai-brand-voice for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

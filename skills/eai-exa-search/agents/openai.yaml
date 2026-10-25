@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · exa-search
+  short_description: Neural search via Exa MCP for web, code, and company
+  default_prompt: Use $eai-exa-search for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

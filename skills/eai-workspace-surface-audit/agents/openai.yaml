@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · workspace-surface-audit
+  short_description: Audit the active repo, MCP servers, plugins, connectors,
+  default_prompt: Use $eai-workspace-surface-audit for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

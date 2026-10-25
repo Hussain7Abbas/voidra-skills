@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · benchmark-optimization-loop
+  short_description: Convert 'make it faster' requests into a bounded measured
+  default_prompt: Use $eai-benchmark-optimization-loop for this task with the current host capabilities and local
+    snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

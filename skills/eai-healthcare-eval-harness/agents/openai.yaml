@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · healthcare-eval-harness
+  short_description: Patient safety evaluation harness for healthcare
+  default_prompt: Use $eai-healthcare-eval-harness for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

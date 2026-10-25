@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · council
+  short_description: Convene a four-voice council for ambiguous decisions,
+  default_prompt: Use $eai-council for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

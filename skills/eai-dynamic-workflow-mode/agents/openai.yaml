@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · dynamic-workflow-mode
+  short_description: Design task-local harnesses, eval gates, and reusable skill
+  default_prompt: Use $eai-dynamic-workflow-mode for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · finance-billing-ops
+  short_description: Evidence-first revenue, pricing, refunds, team-billing, and
+  default_prompt: Use $eai-finance-billing-ops for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

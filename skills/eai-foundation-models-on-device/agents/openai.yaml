@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · foundation-models-on-device
+  short_description: Apple FoundationModels framework for on-device LLM — text
+  default_prompt: Use $eai-foundation-models-on-device for this task with the current host capabilities and local
+    snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

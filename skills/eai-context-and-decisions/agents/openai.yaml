@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · context-and-decisions
+  short_description: Maintain concise source-backed AI task context and
+  default_prompt: Use $eai-context-and-decisions for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

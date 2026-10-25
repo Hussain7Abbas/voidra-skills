@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · nuxt4-patterns
+  short_description: Nuxt 4 app patterns for hydration safety, performance,
+  default_prompt: Use $eai-nuxt4-patterns for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

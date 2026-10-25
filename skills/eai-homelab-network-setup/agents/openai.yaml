@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · homelab-network-setup
+  short_description: Practical home and homelab network planning for gateways,
+  default_prompt: Use $eai-homelab-network-setup for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · llm-trading-agent-security
+  short_description: Security patterns for autonomous trading agents with wallet
+  default_prompt: Use $eai-llm-trading-agent-security for this task with the current host capabilities and local
+    snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

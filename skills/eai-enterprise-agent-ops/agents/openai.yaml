@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · enterprise-agent-ops
+  short_description: Operational controls for long-lived or cloud-hosted agent
+  default_prompt: Use $eai-enterprise-agent-ops for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

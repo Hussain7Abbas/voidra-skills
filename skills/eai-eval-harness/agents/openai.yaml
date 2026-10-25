@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · eval-harness
+  short_description: Eval-driven development (EDD) framework for AI coding
+  default_prompt: Use $eai-eval-harness for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

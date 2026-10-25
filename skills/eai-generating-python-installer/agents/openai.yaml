@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · generating-python-installer
+  short_description: 'Commercial-grade Python installer expert for Windows:'
+  default_prompt: Use $eai-generating-python-installer for this task with the current host capabilities and local
+    snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

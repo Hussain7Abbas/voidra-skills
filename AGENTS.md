@@ -22,6 +22,8 @@ Maintain a monorepo of independently installable agent skills for skills.sh.
 - Keep `make publish SKILL=<name>` limited to that skill's committed changes. Publish shared repository changes separately. See [publishing](docs/publishing.md).
 - Treat repository skill copies as the editing source. Global installations are independent copies; update them only when requested.
 
+- Develop and commit changes on `develop`; promote to `main` by merge only. A synchronized collection from dot-skills is copied through its Make publication target, validated here, and pushed as reviewed repository-wide history; the single-skill push target remains limited to one skill. See [publishing](docs/publishing.md#publish-a-synchronized-collection).
+
 ## Keep instructions and documentation synchronized
 
 As part of every task, keep project instructions and documentation synchronized with user-requested changes and relevant changes already made by the user. Before finishing, review the affected `AGENTS.md` files and `docs/` pages and update any rules, directory descriptions, code conventions, commands, architecture, interfaces, configuration, or behavior that changed. Add, move, or remove scoped instructions and documentation when project scopes change, and repair their indexes and links. Update affected documentation in the same task as the code changes; do not leave known stale guidance. Preserve unrelated user edits and document the current intended state without reverting code to match old documentation. If a change has no documentation or instruction impact, leave those files unchanged. Keep every `CLAUDE.md` as only `@AGENTS.md`, with the actual rules in its sibling `AGENTS.md`.

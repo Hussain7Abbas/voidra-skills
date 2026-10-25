@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · continuous-learning-v2
+  short_description: Maintain scoped, source-backed AI assistant lesson
+  default_prompt: Use $eai-continuous-learning-v2 for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

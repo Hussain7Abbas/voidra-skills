@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · ck
+  short_description: Save and resume explicit project checkpoints in AI
+  default_prompt: Use $eai-ck for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

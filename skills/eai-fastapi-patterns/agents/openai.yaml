@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · fastapi-patterns
+  short_description: FastAPI best practices covering project structure, Pydantic
+  default_prompt: Use $eai-fastapi-patterns for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · module-regression
+  short_description: Govern cross-module regression in large repositories with a
+  default_prompt: Use $eai-module-regression for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

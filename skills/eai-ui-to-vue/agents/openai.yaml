@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · ui-to-vue
+  short_description: Use when the user has UI screenshots or design exports that
+  default_prompt: Use $eai-ui-to-vue for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · dotnet-patterns
+  short_description: Idiomatic C# and .NET patterns, conventions, dependency
+  default_prompt: Use $eai-dotnet-patterns for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

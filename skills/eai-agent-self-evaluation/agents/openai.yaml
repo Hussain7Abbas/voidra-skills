@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · agent-self-evaluation
+  short_description: Use after completing any non-trivial task. The agent
+  default_prompt: Use $eai-agent-self-evaluation for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

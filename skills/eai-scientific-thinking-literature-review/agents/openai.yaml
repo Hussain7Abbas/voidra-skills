@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · scientific-thinking-literature-review
+  short_description: Systematic literature-review workflow for academic,
+  default_prompt: Use $eai-scientific-thinking-literature-review for this task with the current host capabilities
+    and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

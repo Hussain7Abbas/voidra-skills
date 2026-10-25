@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · product-lens
+  short_description: Validate the why before building through four product
+  default_prompt: Use $eai-product-lens for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

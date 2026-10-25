@@ -1,14 +1,14 @@
 ---
 name: electron-best-practices
 description: >-
-  Build, modify, debug and review Electron desktop apps with secure process boundaries and Hussain's desktop conventions: main-action shortcuts, a custom titlebar with Settings, tabbed settings and independent scrolling. Use for Electron main/preload/renderer work, window management, IPC, native integration, packaging and desktop testing.
+  Build, modify, debug and review Electron desktop apps with secure process boundaries and Hussain's desktop conventions: main-action shortcuts, centered titlebar titles, grouped Settings/history/panel controls, resizable toggleable panels, tabbed settings and independent scrolling. Use for Electron main/preload/renderer work, window management, IPC, native integration, packaging and desktop testing.
 license: MIT
 metadata:
   author: agent-skills
   source: https://github.com/jwynia/agent-skills/tree/e02ec7e226a6e4f8419fd3b88a1d8e472d421b32/skills/tech/development/tooling/electron-best-practices
   upstream-revision: e02ec7e226a6e4f8419fd3b88a1d8e472d421b32
   customized-for: Hussain Abbas
-  customized-at: "2026-10-15"
+  customized-at: "2026-10-16"
   contributors: hussain7abbas <hussain@iscoded.com>
 ---
 
@@ -18,7 +18,7 @@ This is Hussain's customized global edition of jwynia/agent-skills' MIT-licensed
 
 ## Apply the desktop conventions
 
-Read [Hussain's desktop style](references/personal-desktop-style.md) before implementing or reviewing an Electron interface. Main-action hotkeys, the custom titlebar with a Settings icon, settings tabs and separate scrolling are acceptance requirements for new interfaces. For a scoped change in an existing app, apply them to the affected interface; do not expand the task into an unsolicited whole-app redesign.
+Read [Hussain's desktop style](references/personal-desktop-style.md) before implementing or reviewing an Electron interface. Main-action hotkeys, a centered titlebar title with Settings/history/panel controls opposite the window controls, resizable toggleable panels, settings tabs and separate scrolling are acceptance requirements for new interfaces. Active panel toggles fill the represented pane in the same icon rather than changing the button background. For a scoped change in an existing app, apply these conventions to the affected interface; do not expand the task into an unsolicited whole-app redesign.
 
 Follow the current user's explicit request and the repository's instructions, stack, design tokens and supported platforms. Existing user-selected settings remain valid; do not reset preferences. These conventions do not authorize publishing, signing-account changes, credential access or unrelated repository changes.
 
@@ -46,6 +46,6 @@ The upstream `scripts/` and `assets/` remain optional reference tooling, not man
 
 ## Verify the actual behavior
 
-Choose checks proportional to the change. For new or changed desktop chrome, verify main-action shortcuts, real close/minimize/maximize/restore, Settings access, keyboard tabs/switches, persistence and independent overflow in the built app. Test both supported themes when color or layout changes. Check listeners are removed and a second window receives only its own window-control actions. Use real temporary data; substitute only external services or OS choosers where appropriate.
+Choose checks proportional to the change. For new or changed desktop chrome, verify main-action shortcuts, real close/minimize/maximize/restore, Settings access, centered title and button placement at narrow widths, panel toggle icons, pointer/keyboard resizing, saved sizes/visibility, keyboard tabs/switches and independent overflow in the built app. Check resize boundaries have no trailing empty gutter. Test both supported themes when color or layout changes. Check listeners are removed and a second window receives only its own window-control actions. Use real temporary data; substitute only external services or OS choosers where appropriate.
 
 Run the repository's required checks and inspect screenshots of changed UI. Report actual checks and platform coverage, plus any behavior that requires reopening a window. Automated accessibility checks do not establish a manual screen-reader pass.

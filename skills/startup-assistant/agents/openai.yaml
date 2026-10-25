@@ -1,0 +1,4 @@
+interface:
+  display_name: "Startup Assistant"
+  short_description: "Honest startup advice from the right business experts"
+  default_prompt: "Use $startup-assistant to review this business decision, select the relevant experts, and recommend a practical next step."

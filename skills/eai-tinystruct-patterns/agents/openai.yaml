@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · tinystruct-patterns
+  short_description: Expert guidance for developing with the tinystruct Java
+  default_prompt: Use $eai-tinystruct-patterns for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

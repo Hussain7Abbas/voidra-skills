@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · deep-research
+  short_description: Produce cited research reports from multiple web sources
+  default_prompt: Use $eai-deep-research for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

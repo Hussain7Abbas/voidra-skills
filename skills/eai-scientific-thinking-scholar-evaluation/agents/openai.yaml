@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · scientific-thinking-scholar-evaluation
+  short_description: Structured scholarly-work evaluation for papers, proposals,
+  default_prompt: Use $eai-scientific-thinking-scholar-evaluation for this task with the current host capabilities
+    and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

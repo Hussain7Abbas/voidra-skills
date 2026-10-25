@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · pytorch-patterns
+  short_description: PyTorch deep learning patterns and best practices for
+  default_prompt: Use $eai-pytorch-patterns for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · taste-distillation
+  short_description: Measure a set of reference videos into a reusable style
+  default_prompt: Use $eai-taste-distillation for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

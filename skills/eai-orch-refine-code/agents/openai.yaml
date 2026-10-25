@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · orch-refine-code
+  short_description: Carry out a scoped refactor in AI assistant with
+  default_prompt: Use $eai-orch-refine-code for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

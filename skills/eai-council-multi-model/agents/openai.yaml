@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · council-multi-model
+  short_description: Add one optional external AI assistant critique after the
+  default_prompt: Use $eai-council-multi-model for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

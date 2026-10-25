@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · kotlin-patterns
+  short_description: Idiomatic Kotlin patterns, best practices, and conventions
+  default_prompt: Use $eai-kotlin-patterns for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

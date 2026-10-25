@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · swiftui-patterns
+  short_description: SwiftUI architecture patterns, state management with
+  default_prompt: Use $eai-swiftui-patterns for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

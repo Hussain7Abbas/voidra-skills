@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · living-docs-governance
+  short_description: Keep a long-lived project's documentation from rotting by
+  default_prompt: Use $eai-living-docs-governance for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

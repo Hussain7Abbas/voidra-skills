@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · agentic-engineering
+  short_description: Operate as an agentic engineer using eval-first execution,
+  default_prompt: Use $eai-agentic-engineering for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

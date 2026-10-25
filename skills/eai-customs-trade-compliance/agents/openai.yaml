@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · customs-trade-compliance
+  short_description: Codified customs and trade compliance expertise — HS/HTS
+  default_prompt: Use $eai-customs-trade-compliance for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

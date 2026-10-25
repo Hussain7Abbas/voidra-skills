@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · ito-inference
+  short_description: Inspect the availability of model serving on a completed
+  default_prompt: Use $eai-ito-inference for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

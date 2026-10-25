@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · frontend-slides
+  short_description: Create and improve HTML presentations, pitch decks, talks
+  default_prompt: Use $eai-frontend-slides for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

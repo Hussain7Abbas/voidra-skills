@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · orch-change-feature
+  short_description: Carry out a scoped behavior change in AI assistant with
+  default_prompt: Use $eai-orch-change-feature for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

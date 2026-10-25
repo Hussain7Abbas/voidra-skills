@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · tasteforge-video
+  short_description: Use for file-driven multimodal image, video, and 3D-asset
+  default_prompt: Use $eai-tasteforge-video for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

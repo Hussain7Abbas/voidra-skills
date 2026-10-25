@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · gan-style-harness
+  short_description: Improve a AI assistant artifact through a bounded
+  default_prompt: Use $eai-gan-style-harness for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

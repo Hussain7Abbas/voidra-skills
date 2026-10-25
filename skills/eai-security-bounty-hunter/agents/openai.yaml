@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · security-bounty-hunter
+  short_description: Hunt for exploitable, bounty-worthy security issues in
+  default_prompt: Use $eai-security-bounty-hunter for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

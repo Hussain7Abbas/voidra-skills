@@ -1,0 +1,5 @@
+interface:
+  display_name: "Grill Me"
+  short_description: "Opt-in interview power-up for approved workflows"
+policy:
+  allow_implicit_invocation: false

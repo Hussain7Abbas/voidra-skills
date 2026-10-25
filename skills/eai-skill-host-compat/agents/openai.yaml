@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · skill-host-compat
+  short_description: Check a skill for actual AI assistant metadata, resources,
+  default_prompt: Use $eai-skill-host-compat for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

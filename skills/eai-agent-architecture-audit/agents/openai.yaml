@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · agent-architecture-audit
+  short_description: Full-stack diagnostic for agent and LLM applications.
+  default_prompt: Use $eai-agent-architecture-audit for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

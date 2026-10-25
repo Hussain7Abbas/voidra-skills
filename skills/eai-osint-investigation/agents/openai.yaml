@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · osint-investigation
+  short_description: Sparse-clue OSINT investigation methodology for extracting
+  default_prompt: Use $eai-osint-investigation for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

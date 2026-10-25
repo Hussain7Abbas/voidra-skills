@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · ml-adoption-playbook
+  short_description: End-to-end methodology for AI agents and software engineers
+  default_prompt: Use $eai-ml-adoption-playbook for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · counterparty-channel-discipline
+  short_description: Per-channel strict prompts, mention gating, silent
+  default_prompt: Use $eai-counterparty-channel-discipline for this task with the current host capabilities and
+    local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

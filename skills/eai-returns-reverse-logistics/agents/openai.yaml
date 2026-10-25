@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · returns-reverse-logistics
+  short_description: Codified expertise for returns authorization, receipt and
+  default_prompt: Use $eai-returns-reverse-logistics for this task with the current host capabilities and local
+    snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

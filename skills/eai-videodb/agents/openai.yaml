@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · videodb
+  short_description: Ingest, index, search, edit, and monitor video and audio
+  default_prompt: Use $eai-videodb for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

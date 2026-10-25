@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · prediction-market-oracle-research
+  short_description: Research prediction markets as data sources or oracle
+  default_prompt: Use $eai-prediction-market-oracle-research for this task with the current host capabilities and
+    local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · django-patterns
+  short_description: Django architecture patterns, REST API design with DRF, ORM
+  default_prompt: Use $eai-django-patterns for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

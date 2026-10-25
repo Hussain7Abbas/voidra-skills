@@ -20,13 +20,13 @@ This initial push publishes the repository scaffold and its initial skills toget
 
 ## Publish one skill
 
-On `main`, commit changes limited to the selected skill and preview the push:
+Develop and commit on `develop`. Main accepts merges only. For a single-skill integration push, preview and publish to the existing remote develop branch:
 
 ```sh
 git add skills/init
 git commit -m "Update init skill"
-make publish SKILL=init DRY_RUN=1
-make publish SKILL=init
+make publish SKILL=init BRANCH=develop DRY_RUN=1
+make publish SKILL=init BRANCH=develop
 ```
 
 The target validates `init`, requires a clean working tree, fetches the destination branch, and checks every outgoing commit. All changed files in those commits must be under `skills/init/`. It then pushes the checked commit without tags or force. It never creates a commit or changes global skill installations.
@@ -34,6 +34,12 @@ The target validates `init`, requires a clean working tree, fetches the destinat
 If another skill or shared files such as the README, docs, or tooling changed in outgoing history, the target stops. Publish those repository-wide changes separately with an ordinary reviewed Git push, or reorganize the pending commits before retrying. A change followed by a revert is still outgoing history and is rejected. Branch protection rules still apply; use a pull request if direct pushes are prohibited.
 
 Use `REMOTE=<name>` or `BRANCH=<name>` to select another configured destination. The local checkout must be on that branch, and the remote must use one matching fetch/push URL. A dry run fetches remote state but does not push. Local Git remotes are supported for testing; public distribution requires a GitHub remote. If the branch is already current, publishing reports that and prints the installation information when it recognizes GitHub.
+
+## Publish a synchronized collection
+
+When refreshing all canonical dot-skills packages, run `make publish SKILL=<name>` from dot-skills for every canonical skill. That Make target copies and validates one package without committing or pushing. Update this repository's README catalog, authoring documentation and `skills.sh.json`, preserve existing Voidra Project releases/templates, and validate the full resulting collection.
+
+Commit the collection on `develop` and push it. Promote the reviewed collection with `git switch main`, `git merge --no-ff develop`, and `git push origin main`; never commit development changes directly on main. The single-skill publishing target intentionally rejects this shared catalog and multi-skill history, so use an ordinary reviewed Git push for the collection. Update and commit the dot-skills submodule pointer on its develop branch after the public push. This synchronizes Git-hosted skills without creating a version release or tags. Versioned releases follow the owner's separately authorized release workflow.
 
 ## Install and discover
 

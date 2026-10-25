@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · config-gc
+  short_description: Audit redundant or stale AI assistant skills and project
+  default_prompt: Use $eai-config-gc for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

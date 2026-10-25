@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · social-publisher
+  short_description: Agent-driven scheduling and publishing of social media
+  default_prompt: Use $eai-social-publisher for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

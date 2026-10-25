@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · quarkus-patterns
+  short_description: Quarkus 3.x LTS architecture patterns with Camel for
+  default_prompt: Use $eai-quarkus-patterns for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

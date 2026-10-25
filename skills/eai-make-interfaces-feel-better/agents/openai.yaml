@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · make-interfaces-feel-better
+  short_description: Apply concrete design-engineering details that make
+  default_prompt: Use $eai-make-interfaces-feel-better for this task with the current host capabilities and local
+    snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

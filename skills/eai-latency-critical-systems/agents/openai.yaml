@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · latency-critical-systems
+  short_description: Optimize and verify latency-sensitive systems — realtime
+  default_prompt: Use $eai-latency-critical-systems for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

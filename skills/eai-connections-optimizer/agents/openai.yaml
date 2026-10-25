@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · connections-optimizer
+  short_description: Reorganize the user's X and LinkedIn network with
+  default_prompt: Use $eai-connections-optimizer for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

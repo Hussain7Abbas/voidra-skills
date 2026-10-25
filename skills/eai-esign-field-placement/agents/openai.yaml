@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · esign-field-placement
+  short_description: Deterministic method for placing signature, date, and text
+  default_prompt: Use $eai-esign-field-placement for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

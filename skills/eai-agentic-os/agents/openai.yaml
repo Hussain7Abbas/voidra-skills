@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · agentic-os
+  short_description: Design a AI assistant workspace operating model using
+  default_prompt: Use $eai-agentic-os for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false
