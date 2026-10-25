@@ -1,4 +1,4 @@
-# voidra-skills
+# skills
 
 ## Purpose and structure
 
@@ -28,9 +28,5 @@ Maintain a monorepo of independently installable agent skills for skills.sh.
 
 As part of every task, keep project instructions and documentation synchronized with user-requested changes and relevant changes already made by the user. Before finishing, review the affected `AGENTS.md` files and `docs/` pages and update any rules, directory descriptions, code conventions, commands, architecture, interfaces, configuration, or behavior that changed. Add, move, or remove scoped instructions and documentation when project scopes change, and repair their indexes and links. Update affected documentation in the same task as the code changes; do not leave known stale guidance. Preserve unrelated user edits and document the current intended state without reverting code to match old documentation. If a change has no documentation or instruction impact, leave those files unchanged. Keep every `CLAUDE.md` as only `@AGENTS.md`, with the actual rules in its sibling `AGENTS.md`.
 
-<!-- voidra-project-release:start -->
-## Voidra release copies
 
-- `templates/` contains validated release copies; follow [their instructions](templates/AGENTS.md).
-- Voidra skills/templates are developed in Voidra Project. Publish one committed skill at a time through make publish; publish shared catalogs/templates separately. Preserve unrelated skills and AGPL license files.
-<!-- voidra-project-release:end -->
+- Skills prefixed `voidra-` or `raseen-` are private to dot-skills and must not be added to this public repository.

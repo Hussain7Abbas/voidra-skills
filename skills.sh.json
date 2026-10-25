@@ -10,26 +10,6 @@
       ]
     },
     {
-      "title": "Raseen workflows and MCP",
-      "description": "Author ADL workflow designs and use connected Raseen service, chat, and administration tools.",
-      "skills": [
-        "raseen-adl",
-        "raseen-mcp"
-      ]
-    },
-    {
-      "title": "Voidra Project",
-      "description": "Plan and track software projects with exact local gates and standalone coding agents.",
-      "skills": [
-        "voidra-architect-general",
-        "voidra-go",
-        "voidra-init",
-        "voidra-plan",
-        "voidra-release",
-        "voidra-sync"
-      ]
-    },
-    {
       "title": "Desktop applications",
       "description": "Secure Electron development with personal desktop interaction conventions.",
       "skills": [

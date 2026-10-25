@@ -6,7 +6,7 @@ The root `skills.sh.json` controls grouping on the repository page. Keep its ski
 
 ## First-time setup
 
-The local repository must have an initial commit and a public GitHub remote with a published `main` branch. This checkout already has `origin` configured as `https://github.com/hussain7abbas/voidra-skills.git`. Review the files, then make the initial commit and push:
+The local repository must have an initial commit and a public GitHub remote with a published `main` branch. This checkout already has `origin` configured as `https://github.com/hussain7abbas/skills.git`. Review the files, then make the initial commit and push:
 
 ```sh
 make setup
@@ -46,15 +46,15 @@ Commit the collection on `develop` and push it. Promote the reviewed collection 
 After the public GitHub push:
 
 ```sh
-npx skills add hussain7abbas/voidra-skills --skill init
+bunx skills add hussain7abbas/skills --skill init
 ```
 
 For a non-default branch, use its direct skill URL:
 
 ```sh
-npx skills add https://github.com/hussain7abbas/voidra-skills/tree/BRANCH/skills/init --skill init
+bunx skills add https://github.com/hussain7abbas/skills/tree/BRANCH/skills/init --skill init
 ```
 
-The publish target prints the concrete install command from the remote URL. It does not generate synthetic installs or promise immediate indexing. A corresponding [directory page](https://skills.sh/hussain7abbas/voidra-skills/init) may appear after real CLI installations with telemetry enabled.
+The publish target prints the concrete install command from the remote URL. It does not generate synthetic installs or promise immediate indexing. A corresponding [directory page](https://skills.sh/hussain7abbas/skills/init) may appear after real CLI installations with telemetry enabled.
 
 [Back to documentation](intro.md)

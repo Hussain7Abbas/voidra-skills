@@ -1,10 +1,10 @@
-# voidra-skills
+# skills
 
 A monorepo of agent skills, with each skill independently installable through the [skills CLI](https://github.com/vercel-labs/skills) and discoverable on [skills.sh](https://skills.sh).
 
 ## Skills
 
-The current dot-skills distribution contains 328 canonical skills, including 311 explicit-only Everything AI skills. Each skill retains its own attribution, license and supporting references. Existing Voidra Project releases are listed separately below.
+The current dot-skills distribution contains 326 canonical skills, including 311 explicit-only Everything AI skills. Each skill retains its own attribution, license and supporting references.
 
 | Skill | Purpose |
 | --- | --- |
@@ -333,19 +333,7 @@ The current dot-skills distribution contains 328 canonical skills, including 311
 | [makefile](skills/makefile/SKILL.md) | GNU Make automation and build system guidance. Use when creating or maintaining Makefiles, writing Make targets and recipes, or configuring GNU Make build automation. Keywords: Makefile, GNU Make, … |
 | [makefile-standards](skills/makefile-standards/SKILL.md) | Generate or update a project's Makefile to a consistent standard: strict-mode shell, self-documenting `make help` (awk over `# ` target comments), .PHONY grouping, an abspath ROOT, and Setup/App/Qu… |
 | [modern-web-guidance](skills/modern-web-guidance/SKILL.md) | Check current official web documentation before HTML, CSS, browser API, or client-side JavaScript work. Use built-in browsing or reviewed local documentation as factual evidence, without downloadin… |
-| [raseen-adl](skills/raseen-adl/SKILL.md) | Write, explain, review, validate, or edit Raseen Automation Diagram Language (ADL 1) workflows for the Automations designer. Use for agent orchestration, typed ports, caller context, tools, variabl… |
-| [raseen-mcp](skills/raseen-mcp/SKILL.md) | Use a configured Raseen MCP connection to read or update services, save ADL designs, inspect or create Raseen chats, send messages, manage live service sub-agents, and perform requested user admini… |
 | [startup-assistant](skills/startup-assistant/SKILL.md) | Give candid, evidence-based startup advice and review business ideas, plans, and decisions. Run two relevant expert subagents in parallel after essential context or confirmed Grilling: one assesses… |
-
-## Install Raseen skills for Codex
-
-```sh
-npx skills add hussain7abbas/voidra-skills --skill raseen-adl raseen-mcp --agent codex --global --yes
-```
-
-After installation, ask Codex to use `$raseen-adl` to write a workflow or `$raseen-mcp` to operate your configured Raseen connection. ADL authoring works without a server connection. MCP operations need your own server URL and scoped personal API key; credentials are not included. Saved ADL supports interactive preview rather than live workflow execution.
-
-Share the [ADL skill](https://skills.sh/hussain7abbas/voidra-skills/raseen-adl) and [MCP skill](https://skills.sh/hussain7abbas/voidra-skills/raseen-mcp) pages once indexed. The GitHub folders and installation command are available immediately after publication.
 
 ## Development
 
@@ -374,26 +362,9 @@ Develop and commit on `develop`, then promote to `main` by merge. The target val
 After the repository is pushed publicly, users can install just that skill:
 
 ```sh
-npx skills add hussain7abbas/voidra-skills --skill init
+bunx skills add hussain7abbas/skills --skill init
 ```
 
 skills.sh hosts a directory of GitHub skills. Listings follow CLI installations; a Git push does not guarantee immediate listing. See the [official publishing explanation](https://skills.sh/docs/faq#how-do-i-get-my-skill-listed-on-the-leaderboard).
 
 The root `skills.sh.json` groups published skills on the repository page. Update it whenever public skills are added, renamed, or removed, and run `make skills-config` to validate the configuration.
-
-<!-- voidra-project-release:start -->
-## Voidra Project release skills
-
-These AGPL-3.0-or-later release copies come from [Voidra Project](https://github.com/Hussain7Abbas/voidra-project); develop changes there. Each skill contains its own runtime, matching references/templates and license. Shared template copies are in [templates/](templates/).
-
-| Skill | Purpose |
-| --- | --- |
-| [voidra-architect-general](skills/voidra-architect-general/SKILL.md) | Run Discovery and propose plans or thin slices for Voidra actions using the general project profile. Stops for questions or plan approval; writes planning records and settled glossary terms without implementing or committing. |
-| [voidra-go](skills/voidra-go/SKILL.md) | Run queued Voidra actions through Discovery, planning, implementation and verification in a local Git repository. Leave questions, exact plans, Research findings or committed results for human decisions. |
-| [voidra-init](skills/voidra-init/SKILL.md) | Bring an existing codebase into Voidra with a source-linked inferred profile, a glossary draft and instruction pointers. Use when code exists but .voidra does not. Creates no commits and changes no source code. |
-| [voidra-plan](skills/voidra-plan/SKILL.md) | Run only queued Voidra Discovery and planning stages, proposing questions, plans, slices or Research findings. Preserve source files, repository instructions, HEAD and tags; stop before implementation. |
-| [voidra-release](skills/voidra-release/SKILL.md) | Start a local Voidra release from completed, unreleased actions, creating and queueing its Release action for Go planning and exact Review acceptance. Does not publish releases. |
-| [voidra-sync](skills/voidra-sync/SKILL.md) | Catch Voidra planning up with commits made outside its tracked actions. Infer source-linked profile updates, protect confirmed answers, propose follow-up ideas or actions, and record the examined Git revision without editing code or committing. |
-
-Install selected copies with `npx skills add Hussain7Abbas/voidra-skills --skill voidra-architect-general voidra-go voidra-init voidra-plan voidra-release voidra-sync`. For Codex, check the installed CLI's global destination against current agent documentation; the desktop installer owns exact local copies. A Git push does not promise immediate skills.sh indexing.
-<!-- voidra-project-release:end -->
