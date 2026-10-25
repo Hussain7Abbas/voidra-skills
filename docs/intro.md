@@ -1,4 +1,4 @@
-# voidra-skills documentation
+# skills documentation
 
 This repository keeps reusable agent skills together while allowing users to install each one independently. Skill content lives in `skills/`; root tooling validates and publishes it.
 
