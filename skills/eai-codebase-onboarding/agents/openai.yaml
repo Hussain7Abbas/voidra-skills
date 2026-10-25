@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · codebase-onboarding
+  short_description: Analyze an unfamiliar codebase and generate a structured
+  default_prompt: Use $eai-codebase-onboarding for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

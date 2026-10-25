@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · scientific-db-pubmed-database
+  short_description: Direct PubMed and NCBI E-utilities search workflows for
+  default_prompt: Use $eai-scientific-db-pubmed-database for this task with the current host capabilities and local
+    snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

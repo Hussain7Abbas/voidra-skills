@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · network-bgp-diagnostics
+  short_description: Diagnostics-only BGP troubleshooting patterns for neighbor
+  default_prompt: Use $eai-network-bgp-diagnostics for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · visa-doc-translate
+  short_description: Translate visa document images (bank deposit, employment,
+  default_prompt: Use $eai-visa-doc-translate for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

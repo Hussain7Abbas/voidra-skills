@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · django-celery
+  short_description: Django + Celery async task patterns — configuration, task
+  default_prompt: Use $eai-django-celery for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · react-performance
+  short_description: React and Next.js performance optimization patterns adapted
+  default_prompt: Use $eai-react-performance for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

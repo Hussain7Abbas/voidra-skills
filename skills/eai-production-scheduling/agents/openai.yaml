@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · production-scheduling
+  short_description: Codified expertise for production scheduling, job
+  default_prompt: Use $eai-production-scheduling for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

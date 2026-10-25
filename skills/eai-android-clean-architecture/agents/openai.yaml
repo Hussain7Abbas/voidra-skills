@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · android-clean-architecture
+  short_description: Clean Architecture patterns for Android and Kotlin
+  default_prompt: Use $eai-android-clean-architecture for this task with the current host capabilities and local
+    snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

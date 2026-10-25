@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · swift-actor-persistence
+  short_description: Thread-safe data persistence in Swift using actors —
+  default_prompt: Use $eai-swift-actor-persistence for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

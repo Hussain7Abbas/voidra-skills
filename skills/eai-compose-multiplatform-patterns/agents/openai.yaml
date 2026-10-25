@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · compose-multiplatform-patterns
+  short_description: Compose Multiplatform and Jetpack Compose patterns for KMP
+  default_prompt: Use $eai-compose-multiplatform-patterns for this task with the current host capabilities and local
+    snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

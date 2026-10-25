@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · prompt-caching-strategy
+  short_description: Optimize LLM prompt caching hit rate to reduce API costs
+  default_prompt: Use $eai-prompt-caching-strategy for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · nextjs-turbopack
+  short_description: Next.js 16+ and Turbopack guidance — incremental Rust
+  default_prompt: Use $eai-nextjs-turbopack for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

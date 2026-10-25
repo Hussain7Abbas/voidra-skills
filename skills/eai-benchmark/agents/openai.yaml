@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · benchmark
+  short_description: Measure performance baselines and detect regressions across
+  default_prompt: Use $eai-benchmark for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

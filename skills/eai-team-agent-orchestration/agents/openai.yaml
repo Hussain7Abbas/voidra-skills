@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · team-agent-orchestration
+  short_description: 'Run team-based orchestration for agent squads: work items'
+  default_prompt: Use $eai-team-agent-orchestration for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

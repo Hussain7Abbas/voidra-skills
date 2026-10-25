@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · click-path-audit
+  short_description: Trace every user-facing button/touchpoint through its full
+  default_prompt: Use $eai-click-path-audit for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

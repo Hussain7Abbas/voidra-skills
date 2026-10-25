@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · mailtrap-email-integration
+  short_description: Guides agents through integrating transactional email
+  default_prompt: Use $eai-mailtrap-email-integration for this task with the current host capabilities and local
+    snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

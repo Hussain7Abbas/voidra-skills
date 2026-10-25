@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · taste-application
+  short_description: Generate new video against a distilled style pack and cut
+  default_prompt: Use $eai-taste-application for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

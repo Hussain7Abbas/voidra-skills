@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · token-budget-advisor
+  short_description: Choose useful response depth in AI assistant without
+  default_prompt: Use $eai-token-budget-advisor for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

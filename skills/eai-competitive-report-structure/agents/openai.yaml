@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · competitive-report-structure
+  short_description: Assemble scored competitor profile cards (from
+  default_prompt: Use $eai-competitive-report-structure for this task with the current host capabilities and local
+    snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

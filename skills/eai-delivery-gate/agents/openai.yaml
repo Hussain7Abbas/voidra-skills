@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · delivery-gate
+  short_description: Check actual completion and verification evidence before a
+  default_prompt: Use $eai-delivery-gate for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

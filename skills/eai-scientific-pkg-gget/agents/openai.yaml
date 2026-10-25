@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · scientific-pkg-gget
+  short_description: gget CLI and Python workflow for quick genomic database
+  default_prompt: Use $eai-scientific-pkg-gget for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

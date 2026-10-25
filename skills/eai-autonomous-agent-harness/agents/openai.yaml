@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · autonomous-agent-harness
+  short_description: Design and exercise a bounded AI task harness with
+  default_prompt: Use $eai-autonomous-agent-harness for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

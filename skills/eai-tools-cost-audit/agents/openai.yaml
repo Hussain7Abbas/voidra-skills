@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · tools-cost-audit
+  short_description: Evidence-first ECC Tools burn and billing audit workflow.
+  default_prompt: Use $eai-tools-cost-audit for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

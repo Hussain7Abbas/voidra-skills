@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · hexagonal-architecture
+  short_description: Design, implement, and refactor Ports & Adapters systems
+  default_prompt: Use $eai-hexagonal-architecture for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

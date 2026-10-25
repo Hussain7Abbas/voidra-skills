@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · openclaw-persona-forge
+  short_description: 为 OpenClaw AI Agent 锻造完整的龙虾灵魂方案。根据用户偏好或随机抽卡，
+  default_prompt: Use $eai-openclaw-persona-forge for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

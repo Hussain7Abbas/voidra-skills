@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · homelab-vlan-segmentation
+  short_description: Segmenting home networks into VLANs for IoT, guest,
+  default_prompt: Use $eai-homelab-vlan-segmentation for this task with the current host capabilities and local
+    snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

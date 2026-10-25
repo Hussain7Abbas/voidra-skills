@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · motion-advanced
+  short_description: Advanced motion patterns for React / Next.js — drag & drop,
+  default_prompt: Use $eai-motion-advanced for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

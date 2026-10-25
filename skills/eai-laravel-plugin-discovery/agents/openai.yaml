@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · laravel-plugin-discovery
+  short_description: Discover and evaluate Laravel packages via LaraPlugins.io
+  default_prompt: Use $eai-laravel-plugin-discovery for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

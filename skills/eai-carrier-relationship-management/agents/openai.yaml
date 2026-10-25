@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · carrier-relationship-management
+  short_description: 'Manage truckload, LTL, and intermodal carrier portfolios:'
+  default_prompt: Use $eai-carrier-relationship-management for this task with the current host capabilities and
+    local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

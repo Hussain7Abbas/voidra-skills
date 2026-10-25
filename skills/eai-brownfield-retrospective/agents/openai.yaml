@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · brownfield-retrospective
+  short_description: Run the ECC engineering process retroactively against an
+  default_prompt: Use $eai-brownfield-retrospective for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

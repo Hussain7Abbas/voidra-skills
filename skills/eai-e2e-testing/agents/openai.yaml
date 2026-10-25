@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · e2e-testing
+  short_description: Playwright E2E testing patterns, Page Object Model,
+  default_prompt: Use $eai-e2e-testing for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

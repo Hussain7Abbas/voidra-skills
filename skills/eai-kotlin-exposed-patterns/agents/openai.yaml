@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · kotlin-exposed-patterns
+  short_description: JetBrains Exposed ORM patterns including DSL queries, DAO
+  default_prompt: Use $eai-kotlin-exposed-patterns for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

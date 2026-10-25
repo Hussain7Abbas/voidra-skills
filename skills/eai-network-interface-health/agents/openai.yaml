@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · network-interface-health
+  short_description: Diagnose interface errors, drops, CRCs, duplex mismatches,
+  default_prompt: Use $eai-network-interface-health for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

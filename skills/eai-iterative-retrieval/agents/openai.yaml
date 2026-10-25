@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · iterative-retrieval
+  short_description: Pattern for progressively refining context retrieval to
+  default_prompt: Use $eai-iterative-retrieval for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

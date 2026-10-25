@@ -1,0 +1,253 @@
+{
+  "reviewed_on": "2026-10-24",
+  "sources": [
+    {
+      "repository": "alirezarezvani/claude-skills",
+      "revision": "6d2f02ea077eead1bee5411a31bcc6db5a11a70c",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "a20126646f93d32a8989c3cf4772d59194f405034f7babe7daebeac22b8ab151",
+          "bytes": 1072,
+          "url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/6d2f02ea077eead1bee5411a31bcc6db5a11a70c/LICENSE"
+        },
+        {
+          "path": "c-level-advisor/skills/chief-of-staff/SKILL.md",
+          "sha256": "bc217ed8a294363fb61c895c54fcc70f55221f92aab16841df25c8ed8a05e9a5",
+          "bytes": 6731,
+          "url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/6d2f02ea077eead1bee5411a31bcc6db5a11a70c/c-level-advisor/skills/chief-of-staff/SKILL.md"
+        },
+        {
+          "path": "c-level-advisor/skills/context-engine/SKILL.md",
+          "sha256": "747e58b4d06d1354e593a296c32cdc605a2e3af22dd125c4b2bc807ac4b63b77",
+          "bytes": 4517,
+          "url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/6d2f02ea077eead1bee5411a31bcc6db5a11a70c/c-level-advisor/skills/context-engine/SKILL.md"
+        },
+        {
+          "path": "c-level-advisor/skills/board-meeting/SKILL.md",
+          "sha256": "0e79947665096683816bcae3451561840b8bc834e70da583f41cbe68caf05ed6",
+          "bytes": 6660,
+          "url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/6d2f02ea077eead1bee5411a31bcc6db5a11a70c/c-level-advisor/skills/board-meeting/SKILL.md"
+        },
+        {
+          "path": "c-level-advisor/skills/ceo-advisor/SKILL.md",
+          "sha256": "df3063c65e85400d2aa877f74aedecf561a5e3b78e8b6dd316860f2c31337c4c",
+          "bytes": 8189,
+          "url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/6d2f02ea077eead1bee5411a31bcc6db5a11a70c/c-level-advisor/skills/ceo-advisor/SKILL.md"
+        },
+        {
+          "path": "c-level-advisor/skills/cfo-advisor/SKILL.md",
+          "sha256": "9fcae3f3683725337b96fae510ef0c659ffc3551fca5838c2e94c576696f91f2",
+          "bytes": 7299,
+          "url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/6d2f02ea077eead1bee5411a31bcc6db5a11a70c/c-level-advisor/skills/cfo-advisor/SKILL.md"
+        },
+        {
+          "path": "c-level-advisor/skills/coo-advisor/SKILL.md",
+          "sha256": "f7f47376610ef7a280be4af34a3816adb9225a24d6af52e148a4808b13c6df64",
+          "bytes": 6452,
+          "url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/6d2f02ea077eead1bee5411a31bcc6db5a11a70c/c-level-advisor/skills/coo-advisor/SKILL.md"
+        },
+        {
+          "path": "c-level-advisor/skills/cpo-advisor/SKILL.md",
+          "sha256": "aa60b2c210f1b0ae1b6668f285ee1dd85b21c607f236f57a7b9bb0e9417a4225",
+          "bytes": 9090,
+          "url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/6d2f02ea077eead1bee5411a31bcc6db5a11a70c/c-level-advisor/skills/cpo-advisor/SKILL.md"
+        },
+        {
+          "path": "c-level-advisor/skills/cmo-advisor/SKILL.md",
+          "sha256": "aa76f8740b2384e18066e4f02950bec552e0a8b5ff17a526a51b724163592cc7",
+          "bytes": 8523,
+          "url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/6d2f02ea077eead1bee5411a31bcc6db5a11a70c/c-level-advisor/skills/cmo-advisor/SKILL.md"
+        },
+        {
+          "path": "c-level-advisor/skills/cro-advisor/SKILL.md",
+          "sha256": "cd712605d907badd29df29bd8c9cd8cb638bb845be285f3c5ecbd03c51a6bbd0",
+          "bytes": 8876,
+          "url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/6d2f02ea077eead1bee5411a31bcc6db5a11a70c/c-level-advisor/skills/cro-advisor/SKILL.md"
+        },
+        {
+          "path": "c-level-advisor/skills/cto-advisor/SKILL.md",
+          "sha256": "163188fbfa003cfe593f460f814aadcfa4228c85d6de96fe7589442afbee8adb",
+          "bytes": 11982,
+          "url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/6d2f02ea077eead1bee5411a31bcc6db5a11a70c/c-level-advisor/skills/cto-advisor/SKILL.md"
+        },
+        {
+          "path": "c-level-advisor/skills/chro-advisor/SKILL.md",
+          "sha256": "efd98eaba78e41b3399006a48536df2e146c1638dd758155f46886f07070d70d",
+          "bytes": 7241,
+          "url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/6d2f02ea077eead1bee5411a31bcc6db5a11a70c/c-level-advisor/skills/chro-advisor/SKILL.md"
+        },
+        {
+          "path": "c-level-advisor/skills/ciso-advisor/SKILL.md",
+          "sha256": "ca2c14e65ff74b576e2d40ac39d0b26b00cca206488254ba525b78cbdb7c2b37",
+          "bytes": 7275,
+          "url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/6d2f02ea077eead1bee5411a31bcc6db5a11a70c/c-level-advisor/skills/ciso-advisor/SKILL.md"
+        },
+        {
+          "path": "c-level-advisor/skills/general-counsel-advisor/SKILL.md",
+          "sha256": "d2c9bc2970c3eab62937f4325169dee6f4b8d15f4152152e67a418f70001a188",
+          "bytes": 9120,
+          "url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/6d2f02ea077eead1bee5411a31bcc6db5a11a70c/c-level-advisor/skills/general-counsel-advisor/SKILL.md"
+        },
+        {
+          "path": "c-level-advisor/skills/chief-customer-officer-advisor/SKILL.md",
+          "sha256": "8a985a538ffdf5a31325ea757fe25fc35aba2af187763f6f6d7dd50932fc7465",
+          "bytes": 11993,
+          "url": "https://raw.githubusercontent.com/alirezarezvani/claude-skills/6d2f02ea077eead1bee5411a31bcc6db5a11a70c/c-level-advisor/skills/chief-customer-officer-advisor/SKILL.md"
+        }
+      ],
+      "author": "Alireza Rezvani",
+      "license": "MIT",
+      "bundled_license": "licenses/sa-alirezarezvani-claude-skills-MIT.txt",
+      "license_sha256": "a20126646f93d32a8989c3cf4772d59194f405034f7babe7daebeac22b8ab151"
+    },
+    {
+      "repository": "phuryn/pm-skills",
+      "revision": "07b34f64ee828df08953f505b7f747aef85ae7c6",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "a2c922f9b81b4f40347ddfa79c38eda0f1278b5a6d108bd4099b4da254c774ee",
+          "bytes": 1068,
+          "url": "https://raw.githubusercontent.com/phuryn/pm-skills/07b34f64ee828df08953f505b7f747aef85ae7c6/LICENSE"
+        },
+        {
+          "path": "pm-product-discovery/skills/identify-assumptions-new/SKILL.md",
+          "sha256": "962b1e0c01e45ceb930e4d806c0ffb05e36cf25dcfef5497e7828d89d6ae474b",
+          "bytes": 3227,
+          "url": "https://raw.githubusercontent.com/phuryn/pm-skills/07b34f64ee828df08953f505b7f747aef85ae7c6/pm-product-discovery/skills/identify-assumptions-new/SKILL.md"
+        },
+        {
+          "path": "pm-product-discovery/skills/prioritize-assumptions/SKILL.md",
+          "sha256": "18160a0138c788790c9dd22995ffdcfac485c1f0599c170d8668678e59766073",
+          "bytes": 2311,
+          "url": "https://raw.githubusercontent.com/phuryn/pm-skills/07b34f64ee828df08953f505b7f747aef85ae7c6/pm-product-discovery/skills/prioritize-assumptions/SKILL.md"
+        },
+        {
+          "path": "pm-product-discovery/skills/interview-script/SKILL.md",
+          "sha256": "892ca53da9852d4e6516d2305f0c0eb2db370bf39693c6c6797154b44bec9b4c",
+          "bytes": 4817,
+          "url": "https://raw.githubusercontent.com/phuryn/pm-skills/07b34f64ee828df08953f505b7f747aef85ae7c6/pm-product-discovery/skills/interview-script/SKILL.md"
+        },
+        {
+          "path": "pm-product-discovery/skills/brainstorm-experiments-new/SKILL.md",
+          "sha256": "fe66d9ba76cf6b0e156298c88f752d8e1e62549fe77a7c01c0a74d8679da9334",
+          "bytes": 2538,
+          "url": "https://raw.githubusercontent.com/phuryn/pm-skills/07b34f64ee828df08953f505b7f747aef85ae7c6/pm-product-discovery/skills/brainstorm-experiments-new/SKILL.md"
+        },
+        {
+          "path": "pm-execution/skills/pre-mortem/SKILL.md",
+          "sha256": "4e5cf10a46ac1d1cdde6aa009ba2b860c532f55c0c3d9ec53a82082cad073052",
+          "bytes": 4082,
+          "url": "https://raw.githubusercontent.com/phuryn/pm-skills/07b34f64ee828df08953f505b7f747aef85ae7c6/pm-execution/skills/pre-mortem/SKILL.md"
+        }
+      ],
+      "author": "Pawel Huryn",
+      "license": "MIT",
+      "bundled_license": "licenses/sa-phuryn-pm-skills-MIT.txt",
+      "license_sha256": "a2c922f9b81b4f40347ddfa79c38eda0f1278b5a6d108bd4099b4da254c774ee"
+    },
+    {
+      "repository": "coreyhaines31/marketingskills",
+      "revision": "e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b",
+      "files": [
+        {
+          "path": "LICENSE",
+          "sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591",
+          "bytes": 1069,
+          "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/LICENSE"
+        },
+        {
+          "path": "skills/product-marketing/SKILL.md",
+          "sha256": "19ece0fa75c72a5a8b6e90db80f506586f54cc93bae6bffbb1bd2ef4ae7d603c",
+          "bytes": 13847,
+          "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/skills/product-marketing/SKILL.md"
+        },
+        {
+          "path": "skills/customer-research/SKILL.md",
+          "sha256": "905e65e67268448d88b3b96cf045c6b3615cdd87c1060e129b148a31aa627669",
+          "bytes": 15166,
+          "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/skills/customer-research/SKILL.md"
+        },
+        {
+          "path": "skills/copy-editing/SKILL.md",
+          "sha256": "2a072606d9d5662509ea6ef62c65719487dcb68876acab9286bde4d1af5c030f",
+          "bytes": 18459,
+          "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/skills/copy-editing/SKILL.md"
+        },
+        {
+          "path": "skills/cro/SKILL.md",
+          "sha256": "6e172cc38178c800ff41ceb097f36c6a1db8035fb88a1fee53043f8ec38a6f35",
+          "bytes": 7114,
+          "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/skills/cro/SKILL.md"
+        },
+        {
+          "path": "skills/pricing/SKILL.md",
+          "sha256": "b0318f64140e60a28d0cf71b1a6bf2aa214b96ef2bc3253c60d16ae480367d25",
+          "bytes": 13479,
+          "url": "https://raw.githubusercontent.com/coreyhaines31/marketingskills/e85f3cbc2e4a79bf33b2a12e9bdd9087d414735b/skills/pricing/SKILL.md"
+        }
+      ],
+      "author": "Corey Haines",
+      "license": "MIT",
+      "bundled_license": "licenses/sa-coreyhaines31-marketingskills-MIT.txt",
+      "license_sha256": "b70d71e24e40fce5da8f4b6f9cd862096a048e433db7f3c8cac5e348e6d34591"
+    },
+    {
+      "repository": "mattpocock/skills",
+      "revision": "5beb35b040e3de97e54fa9e386d7e42d15c295c2",
+      "reviewed_on": "2026-10-25",
+      "author": "Matt Pocock",
+      "license": "MIT",
+      "bundled_license": "licenses/sa-mattpocock-skills-MIT.txt",
+      "license_sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+      "files": [
+        {
+          "path": "skills/productivity/grill-me/SKILL.md",
+          "url": "https://raw.githubusercontent.com/mattpocock/skills/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/productivity/grill-me/SKILL.md",
+          "sha256": "caaf8b8de1684f96e26b28f3c29189db5c89cce4b73e1c93d86164f66ef88637",
+          "bytes": 157
+        },
+        {
+          "path": "skills/productivity/grilling/SKILL.md",
+          "url": "https://raw.githubusercontent.com/mattpocock/skills/5beb35b040e3de97e54fa9e386d7e42d15c295c2/skills/productivity/grilling/SKILL.md",
+          "sha256": "befdff1e27a1dfe2a294d5871169ac1afe16d983911daa4f32627514a48c1e15",
+          "bytes": 2049
+        },
+        {
+          "path": "LICENSE",
+          "url": "https://raw.githubusercontent.com/mattpocock/skills/5beb35b040e3de97e54fa9e386d7e42d15c295c2/LICENSE",
+          "sha256": "0e7ac423bf2c6e223b7c5b156f8cf72da49d748e56a1641402c31f22ad07dbb5",
+          "bytes": 1068
+        }
+      ],
+      "local_adaptation": {
+        "source": "reviewed local grill-me/grilling adaptation",
+        "engine_path": "references/sa-grilling.md",
+        "engine_sha256": "5b16ea1510cc652e2515dcdbc2df24f57be7ba0aaaf1f2dd9624e00eb7ee782a",
+        "base_import_manifest": "docs/imports/grilling.json (parent repository provenance; not a runtime dependency)",
+        "changes": "The engine bytes match the reviewed local fallback. Startup Assistant asks for a task-level mode with No-grill as the offered default, reuses task/chat choices, and returns to the business review after Grilling."
+      }
+    }
+  ],
+  "schema_version": 1,
+  "update_policy": "manual review only; no automatic upstream execution or updates",
+  "adaptation": "Selected source entrypoints informed a rewritten, host-neutral synthesis; upstream scripts, hooks, commands and agents are not bundled.",
+  "local_expert_review": {
+    "configured_on": "2026-10-25",
+    "authorship": "local synthesis by Hussain Abbas; explicitly requested Startup Assistant behavior",
+    "reference": "references/sa-expert-reviews.md",
+    "reviewers": 2,
+    "execution": "parallel native subagents after essential context or confirmed Grilling",
+    "isolation": "same brief, distinct lenses, no peer review visibility",
+    "reuse": "current conversation; delta reviews for affected perspectives",
+    "fallback": "disclose actual unavailable/partial/isolation limits; no fabricated independent reviews",
+    "external_services_required": false,
+    "reference_sha256": "d6730db93a5031a8fb058eaa178f7d05e99be4815a198f6a158c8ae87a4c8e11",
+    "roles": {
+      "assessor": "evaluate value, viability, alternatives and conditions",
+      "challenger": "prioritize up to three material assumptions/risks with evidence, consequences and tests or controls; no forced opposition"
+    },
+    "speed": "one short report per role, normally at most 250 words; parallel, no automatic debate, reuse and affected-role deltas"
+  }
+}

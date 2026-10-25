@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · data-scraper-agent
+  short_description: Build a fully automated AI-powered data collection agent
+  default_prompt: Use $eai-data-scraper-agent for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

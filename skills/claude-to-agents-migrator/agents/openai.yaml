@@ -1,0 +1,4 @@
+interface:
+  display_name: "CLAUDE.md to AGENTS.md migrator"
+  short_description: "Migrate repository instructions from CLAUDE.md to AGENTS.md"
+  default_prompt: "Migrate every repository-owned CLAUDE.md to AGENTS.md and leave a sibling CLAUDE.md containing @AGENTS.md beside every AGENTS.md."

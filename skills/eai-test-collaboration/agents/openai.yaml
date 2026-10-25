@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · test-collaboration
+  short_description: Inventory and govern a project's test assets. Connect
+  default_prompt: Use $eai-test-collaboration for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

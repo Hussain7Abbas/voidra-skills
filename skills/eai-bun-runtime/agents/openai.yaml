@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · bun-runtime
+  short_description: Bun as runtime, package manager, bundler, and test runner.
+  default_prompt: Use $eai-bun-runtime for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

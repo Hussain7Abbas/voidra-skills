@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · brand-discovery
+  short_description: Run a structured, resumable multi-session brand identity
+  default_prompt: Use $eai-brand-discovery for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

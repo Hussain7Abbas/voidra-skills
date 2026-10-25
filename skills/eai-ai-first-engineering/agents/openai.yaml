@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · ai-first-engineering
+  short_description: Engineering operating model for teams where AI agents
+  default_prompt: Use $eai-ai-first-engineering for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

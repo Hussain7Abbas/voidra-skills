@@ -1,0 +1,5 @@
+interface:
+  display_name: "Grilling"
+  short_description: "Deep questioning after an explicit workflow choice"
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · laravel-tdd
+  short_description: Laravel testing strategies with PHPUnit, Pest, model
+  default_prompt: Use $eai-laravel-tdd for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

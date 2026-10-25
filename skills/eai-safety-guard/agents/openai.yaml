@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · safety-guard
+  short_description: Apply explicit path and action constraints to a AI task,
+  default_prompt: Use $eai-safety-guard for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

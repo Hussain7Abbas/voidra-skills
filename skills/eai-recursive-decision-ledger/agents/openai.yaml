@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · recursive-decision-ledger
+  short_description: Run repeated rollouts ("Prime Gauss" style recursive
+  default_prompt: Use $eai-recursive-decision-ledger for this task with the current host capabilities and local
+    snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

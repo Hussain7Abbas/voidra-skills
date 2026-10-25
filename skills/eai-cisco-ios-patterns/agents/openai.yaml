@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · cisco-ios-patterns
+  short_description: Cisco IOS and IOS-XE review patterns for show commands,
+  default_prompt: Use $eai-cisco-ios-patterns for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

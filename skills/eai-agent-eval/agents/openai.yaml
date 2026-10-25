@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · agent-eval
+  short_description: Head-to-head comparison of coding agents (Claude Code,
+  default_prompt: Use $eai-agent-eval for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

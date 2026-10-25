@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · investor-outreach
+  short_description: Draft cold emails, warm intro blurbs, follow-ups, update
+  default_prompt: Use $eai-investor-outreach for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

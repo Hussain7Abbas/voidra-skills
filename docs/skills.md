@@ -28,6 +28,12 @@ npx skills add hussain7abbas/voidra-skills --skill raseen-adl raseen-mcp --agent
 
 In the enclosing dot-skills checkout, this distribution copy is synchronized from its canonical `skills/electron-best-practices/` folder. Global agent links point to the canonical folder; copying for distribution does not change global installation by itself.
 
+## Canonical dot-skills distribution
+
+The [README catalog](../README.md#skills) lists all 328 canonical packages synchronized from dot-skills. The 311 `eai-` packages retain explicit-only invocation settings for Codex and Claude Code. Installation does not enable hooks, background observers, automatic upstream updates or unavailable connectors. Conditional practice references stay inside each package; loading one does not invoke sibling skills. Preserve original authors, contributors, licenses and source provenance on every refresh.
+
+Use dot-skills as the editing source for these distribution copies. Run its `make publish SKILL=<name>` for each selected package, then validate this repository and update the catalog/groupings. Existing Voidra Project packages and shared templates retain their own source and licenses.
+
 ## Add another skill
 
 1. Create `skills/<name>/SKILL.md` using the [authoring rules](../skills/AGENTS.md).

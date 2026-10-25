@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · mcp-dependency-review
+  short_description: Statically review MCP configuration for mutable package
+  default_prompt: Use $eai-mcp-dependency-review for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

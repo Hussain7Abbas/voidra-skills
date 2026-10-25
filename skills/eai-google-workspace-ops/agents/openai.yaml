@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · google-workspace-ops
+  short_description: Operate across Google Drive, Docs, Sheets, and Slides as
+  default_prompt: Use $eai-google-workspace-ops for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

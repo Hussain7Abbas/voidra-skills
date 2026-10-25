@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · flutter-dart-code-review
+  short_description: Library-agnostic Flutter/Dart code review checklist
+  default_prompt: Use $eai-flutter-dart-code-review for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

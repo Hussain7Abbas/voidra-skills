@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · regex-vs-llm-structured-text
+  short_description: Decision framework for parsing structured text (quizzes,
+  default_prompt: Use $eai-regex-vs-llm-structured-text for this task with the current host capabilities and local
+    snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

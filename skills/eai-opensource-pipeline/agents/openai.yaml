@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · opensource-pipeline
+  short_description: Prepare a selected project for public sharing through
+  default_prompt: Use $eai-opensource-pipeline for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

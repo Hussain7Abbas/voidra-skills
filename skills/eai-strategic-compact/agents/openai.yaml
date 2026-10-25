@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · strategic-compact
+  short_description: Prepare a concise AI assistant handoff at a useful task
+  default_prompt: Use $eai-strategic-compact for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

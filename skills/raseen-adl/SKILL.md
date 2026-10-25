@@ -42,3 +42,9 @@ Deliver the complete `.adl` source or file and briefly explain the input flow an
 When the user requests reading or saving a service design, use the separately installed `raseen-mcp` skill if available. It owns connection discovery, service selection, authorization, full-source saves, and read-back verification. Retrieve the current design before adapting it with this skill. Authoring a draft alone does not authorize a service write.
 
 If that skill or the Raseen tools are unavailable, deliver the complete `.adl` file for **Automations → Import → Apply ADL → Save design** and explain that it has not been saved remotely. Each service stores one design. An ADL child is an `agent` node; creating a separate live service sub-agent is outside diagram authoring.
+
+## Dependencies and authority
+
+Bundled references supply scoped criteria, not automatic sibling invocation. Load only the matching reference; preserve project authority and this skill's scope.
+
+- Deciding which recurring activity to automate and where human judgment belongs. Read [workflow-discovery](references/practices/workflow-discovery.md); authoring owner: `eai-loop-design-check`.

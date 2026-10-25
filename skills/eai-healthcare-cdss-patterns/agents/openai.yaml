@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · healthcare-cdss-patterns
+  short_description: Clinical Decision Support System (CDSS) development
+  default_prompt: Use $eai-healthcare-cdss-patterns for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

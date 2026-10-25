@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · nodejs-keccak256
+  short_description: Prevent Ethereum hashing bugs in JavaScript and TypeScript.
+  default_prompt: Use $eai-nodejs-keccak256 for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

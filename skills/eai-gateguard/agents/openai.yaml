@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · gateguard
+  short_description: Review AI assistant tool actions against explicit scope,
+  default_prompt: Use $eai-gateguard for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

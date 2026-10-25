@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · springboot-verification
+  short_description: Run the full Spring Boot verification loop — Maven or
+  default_prompt: Use $eai-springboot-verification for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

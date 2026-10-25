@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · liquid-glass-design
+  short_description: iOS 26 Liquid Glass design system — dynamic glass material
+  default_prompt: Use $eai-liquid-glass-design for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

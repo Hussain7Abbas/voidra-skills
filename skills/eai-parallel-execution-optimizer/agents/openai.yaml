@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · parallel-execution-optimizer
+  short_description: Speed up a task by turning it into a dependency graph of
+  default_prompt: Use $eai-parallel-execution-optimizer for this task with the current host capabilities and local
+    snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

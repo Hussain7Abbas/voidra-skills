@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · plankton-code-quality
+  short_description: Run existing project format, lint and type checks in AI
+  default_prompt: Use $eai-plankton-code-quality for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

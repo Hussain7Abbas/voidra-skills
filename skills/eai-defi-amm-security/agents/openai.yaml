@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · defi-amm-security
+  short_description: Security checklist for Solidity AMM contracts, liquidity
+  default_prompt: Use $eai-defi-amm-security for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · python-patterns
+  short_description: Pythonic idioms, PEP 8 standards, type hints, and best
+  default_prompt: Use $eai-python-patterns for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

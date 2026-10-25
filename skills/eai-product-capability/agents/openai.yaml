@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · product-capability
+  short_description: Translate PRD intent, roadmap asks, or product discussions
+  default_prompt: Use $eai-product-capability for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

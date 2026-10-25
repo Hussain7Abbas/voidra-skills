@@ -72,3 +72,9 @@ Before replacing an existing `CLAUDE.md`, read it and migrate any still-relevant
 - Root instructions include the maintenance rule, and scoped instructions require keeping their local guidance current.
 
 Report the files created or updated and any facts that could not be verified.
+
+## Dependencies and authority
+
+Bundled references supply scoped criteria, not automatic sibling invocation. Load only the matching reference; preserve project authority and this skill's scope.
+
+- Resolving ambiguous domain concepts or updating the existing vocabulary source. Read [domain-language](references/practices/domain-language.md); authoring owner: `eai-docs-governance`.

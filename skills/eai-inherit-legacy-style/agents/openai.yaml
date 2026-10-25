@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · inherit-legacy-style
+  short_description: Infer and preserve a legacy codebase’s actual style in AI
+  default_prompt: Use $eai-inherit-legacy-style for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

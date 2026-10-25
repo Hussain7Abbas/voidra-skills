@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · quarkus-tdd
+  short_description: Test-driven development for Quarkus 3.x LTS using JUnit 5,
+  default_prompt: Use $eai-quarkus-tdd for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

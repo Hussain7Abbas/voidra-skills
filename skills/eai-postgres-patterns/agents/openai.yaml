@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · postgres-patterns
+  short_description: PostgreSQL database patterns for query optimization, schema
+  default_prompt: Use $eai-postgres-patterns for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

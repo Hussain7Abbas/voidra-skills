@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · i18n-sync
+  short_description: Translate and synchronize application JSON locale files
+  default_prompt: Use $eai-i18n-sync for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

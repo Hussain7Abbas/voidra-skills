@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · remotion-video-creation
+  short_description: Best practices for Remotion - Video creation in React. 29
+  default_prompt: Use $eai-remotion-video-creation for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

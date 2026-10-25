@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · golang-testing
+  short_description: Go testing patterns including table-driven tests, subtests,
+  default_prompt: Use $eai-golang-testing for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

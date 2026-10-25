@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · terminal-opener
+  short_description: Open an executable and its argument array in a visible
+  default_prompt: Use $eai-terminal-opener for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

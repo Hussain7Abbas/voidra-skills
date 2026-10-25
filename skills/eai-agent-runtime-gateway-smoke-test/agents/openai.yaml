@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · agent-runtime-gateway-smoke-test
+  short_description: Verify a local agent API, temporary gateway tunnel, and
+  default_prompt: Use $eai-agent-runtime-gateway-smoke-test for this task with the current host capabilities and
+    local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

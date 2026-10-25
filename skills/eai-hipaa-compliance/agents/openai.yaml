@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · hipaa-compliance
+  short_description: HIPAA-specific entrypoint for healthcare privacy and
+  default_prompt: Use $eai-hipaa-compliance for this task with the current host capabilities and local snapshot
+    restrictions.
+policy:
+  allow_implicit_invocation: false

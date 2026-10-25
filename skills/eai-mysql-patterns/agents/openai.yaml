@@ -1,0 +1,6 @@
+interface:
+  display_name: Everything AI · mysql-patterns
+  short_description: MySQL and MariaDB schema, query, indexing, transaction,
+  default_prompt: Use $eai-mysql-patterns for this task with the current host capabilities and local snapshot restrictions.
+policy:
+  allow_implicit_invocation: false

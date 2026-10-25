@@ -1,0 +1,7 @@
+interface:
+  display_name: Everything AI · unified-notifications-ops
+  short_description: Operate notifications as one ECC-native workflow across
+  default_prompt: Use $eai-unified-notifications-ops for this task with the current host capabilities and local
+    snapshot restrictions.
+policy:
+  allow_implicit_invocation: false
